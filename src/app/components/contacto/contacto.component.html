@@ -1,0 +1,28 @@
+<section id="contacto">
+  <div class="overlay"></div>
+  <div class="fila wow fadeIn">
+    <div class="columna">
+      <h3>Contacto</h3>
+      <ul class="datos-contacto">
+        <li class="dato">
+          <i class="icono fa fa-envelope" aria-hidden="true"></i>
+          <span>comercial@aprosan.es</span>
+        </li>
+        <li class="dato">
+          <i class="icono fa fa-clock-o" aria-hidden="true"></i>
+          <span>De lunes a viernes de 10 a 14 y de 16 a 20</span>
+        </li>
+      </ul>
+      <div class="overlay"></div>
+    </div>
+    <div class="columna">
+      <form class="formulario" name="miFormulario" action="enviar_email.php" method="post">
+        <input class="entrada" name="nombre" type="text"  placeholder="Nombre" title="Nombre" autocomplete="off" required>
+        <input class="entrada" name="email"  type="email" placeholder="Email"  title="Email"  autocomplete="off" required>
+        <input class="entrada" name="asunto" type="text"  placeholder="Asunto" title="Asunto" autocomplete="off" required>
+        <textarea class="entrada" name="mensaje" placeholder="Mensaje" title="Mensaje" autocomplete="off" required></textarea>
+        <input class="boton" type="submit" value="Enviar" disabled="true">
+      </form>
+    </div>
+  </div>
+</section>

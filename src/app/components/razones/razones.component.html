@@ -1,0 +1,15 @@
+<section id="razones" class="wow fadeIn">
+  <div class="container">
+    <h3>¿Por qué una asesoría online?</h3>
+    <div class="timeline">
+      <div class="fila" [ngClass]="{ 'invertida': i % 2 != 0 }" *ngFor="let razon of razones; let i = index">
+        <div class="columna">
+          <div class="tarjeta wow" [ngClass]="{ 'fadeInLeft': i % 2 == 0, 'fadeInRight': i % 2 != 0 }">
+            <p class="texto">{{ razon.texto }}</p>
+          </div>
+          <i class="icono fa fa-{{ razon.icono }} wow zoomIn" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
