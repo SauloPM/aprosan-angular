@@ -800,7 +800,6 @@ h3 {
         
                     .texto {
                         font-size: 12px;
-                        text-align: right;
                         line-height: 25px;
                         margin: 0;
                     }
@@ -839,6 +838,10 @@ h3 {
         
                 
             }
+        }
+
+        &.invertida .columna .tarjeta .texto {
+            text-align: right;
         }
 
         &::after {
