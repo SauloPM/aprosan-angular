@@ -3,5 +3,6 @@ export interface Tarifa {
     titulo: string;
     texto: string;
     aclaracion: string;
+    modal: string;
     delay: string;
 }

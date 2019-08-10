@@ -16,6 +16,7 @@ export class TarifasComponent {
       titulo: 'Tarifa básica',
       texto: 'Asesoría fisca y contable para autónomos del sector sanitario*',
       aclaracion: '* Profesionales autónomos sin obligación de IVA',
+      modal: '#tarifa-basica',
       delay: '0s'
     },
     {
@@ -23,6 +24,7 @@ export class TarifasComponent {
       titulo: 'Tarifa premium',
       texto: 'Asesoría fisca y contable para autónomos del sector sanitario*',
       aclaracion: '* Profesionales autónomos con o sin obligación de IVA',
+      modal: '#tarifa-premium',
       delay: '.25s'
     },
     {
@@ -30,6 +32,7 @@ export class TarifasComponent {
       titulo: 'Tarifa Básica Sociedade',
       texto: 'Asesoría fisca y contable para sociedades del sector sanitario*',
       aclaracion: '* Sociedades sin obligación de IVA',
+      modal: '#tarifa-basica-sociedades',
       delay: '.5s'
     },
     {
@@ -37,6 +40,7 @@ export class TarifasComponent {
       titulo: 'Tarifa Premium Sociedade',
       texto: 'Asesoría fisca y contable para sociedades del sector sanitario*',
       aclaracion: '* Sociedades con o sin obligación de IVA',
+      modal: '#tarifa-premium-sociedades',
       delay: '.75s'
     }
   ];

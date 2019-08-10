@@ -15,7 +15,7 @@
           <p>{{ tarifa.texto }}</p>
         </div>
         <div class="footer">
-          <a class="saber-mas" data-toggle="modal" data-target="#tarifa-basica">Saber más</a>
+          <a class="saber-mas" data-toggle="modal" [attr.data-target]="tarifa.modal">Saber más</a>
           <span class="small">{{ tarifa.aclaracion }}</span>
         </div>
     </div>
