@@ -513,8 +513,6 @@ h3 {
             }
             &:nth-child(2) {
                 background: rgba(245,245,245,.95);
-                border-top: 1px solid $gray;
-                border-bottom: 1px solid $gray;
             }
         }
 
@@ -553,10 +551,15 @@ h3 {
 
     .items {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        border-top: 1px solid $gray;
+        border-left: 1px solid $gray;
 
         .item {
+            flex: 1 0 50%;
             text-align: center;
+            border-right: 1px solid $gray;
+            border-bottom: 1px solid $gray;
             padding: 75px;
             width: 100%;
 
@@ -589,43 +592,25 @@ h3 {
                 font-size: 13px;
                 line-height: 25px;
             }
-
-            &:nth-child(1) {
-                border-right: 1px solid $gray;
-            }
         }
-
-        &:first-child .item {
-            border-bottom: 1px solid $gray;
-        }
-
-        & > div { display: flex; flex-wrap: wrap; }
     }
 }
 
 // Mobile First
 
 @media only screen and (min-width: $mobile) {
-    #ventajas .items {
-        .item {
-            padding: 50px 25px;
-        }
-        & > div {
-            flex-wrap: nowrap;
-        }
+    #ventajas .items .item {
+        padding: 50px 25px;
     }
 }
 
 @media only screen and (min-width: $tablet) {
-    #ventajas {
-        
-        .fila {
-            flex-wrap: nowrap;
+    #ventajas .fila {
+        flex-wrap: nowrap;
     
-            .columna {
-                &:nth-child(1) { width: 40% }
-                &:nth-child(2) { width: 60% }
-            }
+        .columna {
+            &:nth-child(1) { width: 40% }
+            &:nth-child(2) { width: 60% }
         }
 
         .heading {

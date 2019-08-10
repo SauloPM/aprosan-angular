@@ -3,9 +3,6 @@ import { Component } from '@angular/core';
 // Interfaces
 import { Razon } from 'src/app/interfaces/razon';
 
-// Servicios
-import { ServicioService } from 'src/app/services/servicio.service';
-
 @Component({
   selector: 'app-razones',
   templateUrl: './razones.component.html',
@@ -13,7 +10,6 @@ import { ServicioService } from 'src/app/services/servicio.service';
 })
 export class RazonesComponent {
 
-  // Atributos
   razones: Razon[] = [
     {
       texto: 'Gracias a las herramientas tecnologías con las que contamos hoy en día, una asesoría online puede ofrecer un servicio mucho más eficiente',
@@ -37,7 +33,6 @@ export class RazonesComponent {
     }
   ];
 
-  // Constructor
   constructor() { }
 
 }
