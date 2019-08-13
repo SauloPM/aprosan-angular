@@ -27,7 +27,6 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
-    // overflow: hidden; // Preloader
 }
 
 section {
@@ -1210,7 +1209,7 @@ footer {
         // Body
 
         .modal-body {
-            padding: 0 50px 50px;
+            padding: 0 20px 50px;
 
             h3 {
                 font-size: 15px;
@@ -1228,7 +1227,7 @@ footer {
 
             ul {
                 list-style: none;
-                padding: 0 25px;
+                padding: 0;
                 margin: 0;
 
                 li {
@@ -1262,6 +1261,18 @@ footer {
                 font-size: 12px;
                 line-height: 25px;
             }
+        }
+    }
+}
+
+// Mobile First
+
+@media only screen and (min-width: $mobile) {
+    .modal .modal-content .modal-body {
+        padding: 0 50px 50px;
+
+        ul {
+            padding: 0 25px;
         }
     }
 }
