@@ -236,10 +236,10 @@ h3 {
 
         h2 {
             color: white;
-            font-size: 12px;
+            font-size: 15px;
             font-weight: normal;
             text-align: center;
-            line-height: 25px;
+            line-height: 30px;
             margin: 0;
         }
 
@@ -315,8 +315,17 @@ h3 {
             }
         }
 
-        .heading a {
-            bottom: 0;
+        .heading {
+            padding: 25px;
+
+            h2 {
+                font-size: 12px;
+                line-height: 25px;
+            }
+    
+            a {
+                bottom: -10px;
+            }
         }
     }
 }
