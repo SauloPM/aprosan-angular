@@ -12,7 +12,7 @@ export class TarifasComponent {
 
   tarifas: Tarifa[] = [
     {
-      precio: '26',
+      precio: '28',
       titulo: 'Tarifa básica',
       texto: 'Asesoría fisca y contable para autónomos del sector sanitario*',
       aclaracion: '* Profesionales autónomos sin obligación de IVA',
@@ -29,7 +29,7 @@ export class TarifasComponent {
     },
     {
       precio: '54',
-      titulo: 'Tarifa Básica Sociedade',
+      titulo: 'Tarifa Básica Sociedades',
       texto: 'Asesoría fisca y contable para sociedades del sector sanitario*',
       aclaracion: '* Sociedades sin obligación de IVA',
       modal: '#tarifa-basica-sociedades',
@@ -37,7 +37,7 @@ export class TarifasComponent {
     },
     {
       precio: '76',
-      titulo: 'Tarifa Premium Sociedade',
+      titulo: 'Tarifa Premium Sociedades',
       texto: 'Asesoría fisca y contable para sociedades del sector sanitario*',
       aclaracion: '* Sociedades con o sin obligación de IVA',
       modal: '#tarifa-premium-sociedades',
